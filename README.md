@@ -6,7 +6,10 @@
 PSWatcher is a free solution which can help monitor your network devices.
 
 ## To Run
-Simple download the script and run. The process is now automated and will run through the following: 
+Simple download the script and run. 
+To execute remotely, run: iex(New-Object Net.Webclient).DownloadString("https://raw.githubusercontent.com/securethelogs/PSWatcher/master/PSWatcher.ps1")
+
+The process is now automated and will run through the following: 
 
 - How and what we are scanning
 - Creating the PSWatcher script
