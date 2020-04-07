@@ -1,7 +1,22 @@
 # PSWatcher
 
-![Ctrlaltdel.blog](https://ctrla1tdel.files.wordpress.com/2019/04/cropped-thumb-1920-865098.jpg)
+![PSwatcher](https://ctrla1tdel.files.wordpress.com/2020/04/pswatcher.gif)
 
-PSWatcher is a free solution which can help monitor your network devices. PSWatcher will scan network devices and create a windows event which can be forwarded to your SIEM. 
+## About
+PSWatcher is a free solution which can help monitor your network devices.
 
-Please see the guide on how to configure and run: https://securethelogs.com/pswatcher/
+## To Run
+Simple download the script and run. The process is now automated and will run through the following: 
+
+- How and what we are scanning
+- Creating the PSWatcher script
+- Creating the Scheduled Task to run the PSWatcher script
+- Generate an initial report to show live ports
+- Once the task has ran, it will also create Win events (ID:1111)
+
+There is some manual input required. This is simply the scheduled task and how you wish to run it.
+
+## Help
+More information can be found here: https://securethelogs.com/pswatcher-3/
+
+
